@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Heart Clicker Foto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="rotate-overlay">
+        <div class="phone-icon"></div>
+        <h3>Putar HP Kamu yaa! ↻</h3>
+        <p style="font-size: 0.9rem; margin-top: 10px; opacity: 0.8;">Biar teks pesannya terbaca semua, mohon gunakan mode Landscape.</p>
+    </div>
+    <video id="bg-video" autoplay loop muted playsinline>
+        <source src="0113.mp4" type="video/mp4">
+    </video>
+
+    <div class="video-overlay"></div>
+
+    <audio id="bg-music" loop>
+        <source src="Cansisco - Tulips (Instrumental).mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="unmute-btn">🔊 Musik</button>
+
+    <div class="heart-container" id="heart">
+        <img src="indah.jpg" alt="Foto Hati" class="heart-icon">
+        <div class="instruction">Ketuk fotonya yaa...</div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
